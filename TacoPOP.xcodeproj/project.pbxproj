@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8D8673CC207573D7006C5684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8673CB207573D7006C5684 /* AppDelegate.swift */; };
-		8D8673CE207573D7006C5684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8673CD207573D7006C5684 /* ViewController.swift */; };
 		8D8673D1207573D7006C5684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8673CF207573D7006C5684 /* Main.storyboard */; };
 		8D8673D3207573D8006C5684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8673D2207573D8006C5684 /* Assets.xcassets */; };
 		8D8673D6207573D8006C5684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8673D4207573D8006C5684 /* LaunchScreen.storyboard */; };
 		8D8673E1207573D8006C5684 /* TacoPOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8673E0207573D8006C5684 /* TacoPOPTests.swift */; };
+		8D8673F2207589C5006C5684 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D8673F1207589C5006C5684 /* Default-568h@2x.png */; };
+		8D8673F420758A28006C5684 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8673F320758A28006C5684 /* MainVC.swift */; };
+		8D8673F620758C1C006C5684 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8673F520758C1C006C5684 /* DropShadow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,6 @@
 /* Begin PBXFileReference section */
 		8D8673C8207573D7006C5684 /* TacoPOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoPOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8673CB207573D7006C5684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D8673CD207573D7006C5684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D8673D0207573D7006C5684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D8673D2207573D8006C5684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D8673D5207573D8006C5684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,9 @@
 		8D8673DC207573D8006C5684 /* TacoPOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoPOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8673E0207573D8006C5684 /* TacoPOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoPOPTests.swift; sourceTree = "<group>"; };
 		8D8673E2207573D8006C5684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8673F1207589C5006C5684 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8D8673F320758A28006C5684 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		8D8673F520758C1C006C5684 /* DropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		8D8673BF207573D7006C5684 = {
 			isa = PBXGroup;
 			children = (
+				8D8673F1207589C5006C5684 /* Default-568h@2x.png */,
 				8D8673CA207573D7006C5684 /* TacoPOP */,
 				8D8673DF207573D8006C5684 /* TacoPOPTests */,
 				8D8673C9207573D7006C5684 /* Products */,
@@ -77,12 +82,12 @@
 		8D8673CA207573D7006C5684 /* TacoPOP */ = {
 			isa = PBXGroup;
 			children = (
-				8D8673CB207573D7006C5684 /* AppDelegate.swift */,
-				8D8673CD207573D7006C5684 /* ViewController.swift */,
-				8D8673CF207573D7006C5684 /* Main.storyboard */,
-				8D8673D2207573D8006C5684 /* Assets.xcassets */,
-				8D8673D4207573D8006C5684 /* LaunchScreen.storyboard */,
-				8D8673D7207573D8006C5684 /* Info.plist */,
+				8D8673F020758975006C5684 /* Extensions */,
+				8D8673EF20758969006C5684 /* Protocols */,
+				8D8673EC2075892B006C5684 /* Model */,
+				8D8673ED20758935006C5684 /* View */,
+				8D8673EB2075891F006C5684 /* Controller */,
+				8D8673EE20758942006C5684 /* Resources */,
 			);
 			path = TacoPOP;
 			sourceTree = "<group>";
@@ -94,6 +99,55 @@
 				8D8673E2207573D8006C5684 /* Info.plist */,
 			);
 			path = TacoPOPTests;
+			sourceTree = "<group>";
+		};
+		8D8673EB2075891F006C5684 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D8673CB207573D7006C5684 /* AppDelegate.swift */,
+				8D8673F320758A28006C5684 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D8673EC2075892B006C5684 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D8673ED20758935006C5684 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D8673CF207573D7006C5684 /* Main.storyboard */,
+				8D8673D4207573D8006C5684 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D8673EE20758942006C5684 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D8673D7207573D8006C5684 /* Info.plist */,
+				8D8673D2207573D8006C5684 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D8673EF20758969006C5684 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8D8673F520758C1C006C5684 /* DropShadow.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8D8673F020758975006C5684 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D8673D6207573D8006C5684 /* LaunchScreen.storyboard in Resources */,
+				8D8673F2207589C5006C5684 /* Default-568h@2x.png in Resources */,
 				8D8673D3207573D8006C5684 /* Assets.xcassets in Resources */,
 				8D8673D1207573D7006C5684 /* Main.storyboard in Resources */,
 			);
@@ -197,8 +252,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8673CE207573D7006C5684 /* ViewController.swift in Sources */,
 				8D8673CC207573D7006C5684 /* AppDelegate.swift in Sources */,
+				8D8673F620758C1C006C5684 /* DropShadow.swift in Sources */,
+				8D8673F420758A28006C5684 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
